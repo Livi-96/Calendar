@@ -1,8 +1,6 @@
 import { Modal, Pressable, View, Image } from "react-native";
 import {
   Text,
-  Switch,
-  TextInput,
   StyleSheet,
   ImageBackground,
   FlatList,
@@ -11,7 +9,6 @@ import { useEffect, useState } from "react";
 import background from "../assets/background.jpg";
 import * as SQLite from "expo-sqlite";
 import { DB } from "../global";
-import CalendarForm from "./calendarForm";
 import EventDisplay from "../componants/EventDisplay";
 import FlowForm from "./flowForm";
 import Droplet from "../assets/Droplet.png"
